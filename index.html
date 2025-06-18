@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Analyzer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Image Analyzer</h1>
+    </header>
+    <main>
+        <section id="image-upload">
+            <h2>Upload Image</h2>
+            <input type="file" id="imageUpload" accept="image/*">
+            <img id="imagePreview" src="#" alt="Image Preview" style="max-width: 300px; display: none;">
+            <button id="analyzeButton">Analyze Ramen</button>
+        </section>
+        <section id="results-container">
+            <h2>Results</h2>
+            <div id="results">Analysis results will be displayed here.</div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Image Analyzer</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
