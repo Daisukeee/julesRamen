@@ -77,7 +77,7 @@ function identifyRamenShop(analysisData) {
     // For now, return a mock shop name and location
     const mockShopDetails = {
         "shop_name": "Mock Ramen Deluxe",
-        "location": "Osaka"
+        "location": "東京都：東京駅" // Updated location format
     };
     return mockShopDetails;
 }
